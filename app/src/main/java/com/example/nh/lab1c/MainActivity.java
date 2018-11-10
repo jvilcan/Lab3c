@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
+        /*
         TextView v1;
         v1 = (TextView) findViewById(R.id.name_text_view);
         v1.setOnClickListener(new View.OnClickListener() {
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 v1.setText("Juan");
             }
         });
-
+        */
 
     }
 }
