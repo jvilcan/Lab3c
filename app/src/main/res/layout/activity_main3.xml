@@ -10,7 +10,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="#f32386"
+        android:background="#210a15"
+        android:textAlignment="center"
         android:text="@string/tarjeta"
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="@android:color/holo_green_light"
@@ -35,5 +36,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_text_view" />
+
+
+    <TextView
+        android:id="@+id/name_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#210a15"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/photo_image_view" />
+
+
 
 </android.support.constraint.ConstraintLayout>
